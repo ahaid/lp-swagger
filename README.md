@@ -1,9 +1,8 @@
-# SolidFire Landing Pad API #
+# LP API #
 
 ## Build & Run ##
 
 ```sh
-$ cd SolidFire_Landing_Pad_API
 $ ./sbt
 > container:start
 > ~ ;copy-resources;aux-compile
