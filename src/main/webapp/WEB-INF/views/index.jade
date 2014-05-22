@@ -1,0 +1,14 @@
+-@ val title: String = "ScalatraApp"
+- attributes("title") = title
+
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+    .container
+      a.btn.btn-navbar
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.brand(href="#") =title
+
+.container
+  h2 Welcome to ScalatraApp. {{ 'Current version is v%VERSION%.' | interpolate }}
